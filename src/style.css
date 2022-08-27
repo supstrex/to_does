@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Header{
+    font-size: large;
+    text-align: center;
+}
+
+.NewTodo{
+    padding-left: 140px;
+}
+.NewTodo p{
+    margin: 0;
+}
+
+.ToDos{
+    padding: 20px;
+    width: 500px;
+    margin: auto;    
+}
+
+.TodoList{
+    padding-left: 140px;
+}
+
+.Todo{
+    padding: 5px;
+}
+
+button{
+    margin: 5px;
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+}
