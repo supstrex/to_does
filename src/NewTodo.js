@@ -13,7 +13,7 @@ function Newtodo({ todos, submit }) {
   }, [editable]);
 
   document.addEventListener('keydown', (e)=>{
-    if(e.key === ' '){
+    if(e.key === 'shift'){
       onSubmit(e)
     }
   });
